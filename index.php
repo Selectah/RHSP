@@ -139,7 +139,8 @@
                             min: 0,
                             max: 1000,
                             title: "<?php echo TXT_MEMFREE; ?>",
-                            label: "MB Frei"
+                            label: "MB Frei",
+                            levelColors: ["#FF0505", "#FFBF00", "#40FF00"]
                         });
                     </script>
                 <?php } ?>
