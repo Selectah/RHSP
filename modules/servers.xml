@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+	<server id="0">
+		<name>MySQL</name>
+		<host>localhost</host>
+		<port>3306</port>
+	</server>
+	<server id="1">
+		<name>Apache</name>
+		<host>localhost</host>
+		<port>81</port>
+	</server>
+	<server id="2">
+		<name>Test Offline Service</name>
+		<host>localhost</host>
+		<port>1337</port>
+	</server>
+</servers>

@@ -16,7 +16,7 @@ div#container{
 div#container-hinfos{
 	width: 800px;
 	height: 400px;
-	margin: 25px auto 10px auto;
+	margin: 100px auto 10px auto;
 	background: #FFFFFF;
 	border-radius: 10px;
 	box-shadow: 1px 1px 5px #000000;
@@ -28,6 +28,32 @@ div#container img#logo{
         right: 400px;
 	width: 128px;
 	margin: 0px 0px 0px 50px;
+}
+
+div#container img#logo-custom{
+	position: relative;
+	top: -36px;
+        right: 400px;
+	width: 128px;
+	margin: 0px 0px 0px 410px;
+}
+
+div#container-hinfos img#logo-custom{
+	position: relative;
+	top: -36px;
+        right: 400px;
+	width: 128px;
+	margin: 0px 0px 0px 410px;
+}
+
+div#container-hinfos div#title{
+	float: right;
+	font-family: sans;
+	font-size: 32px;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #000000;
+	margin: 20px 70px 10px 0px;
+	border-bottom: 1px solid #CCCCCC;
 }
 
 div#container div#title{
@@ -44,14 +70,14 @@ div#container-hinfos div#processor{
 	display: block;
 	text-align: left;
 	font-family: sans;
-	margin: -5px 0px 0px 25px;
+	margin: 30px 0px 0px 25px;
 }
 
 div#container-hinfos div#uptime{
 	display: block;
 	text-align: left;
 	font-family: sans;
-	margin: -10px 0px 0px 25px;
+	margin: 0px 0px 0px 25px;
 }
 
 div#container-hinfos div#txdata{
@@ -111,3 +137,6 @@ div#container-hinfos div#border{
 	border-bottom: 2px solid #CCCCCC;
 }
 
+.navbar-default {
+    background-color: #636363;
+}

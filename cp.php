@@ -48,7 +48,7 @@
         <div id="container">
         <img id="logo-custom" src="images/raspberry.png">
         <div id="title">RHS Panel</div>
-
+        <br><b> UserCP coming  soon...</b></br>
         </div>
     </body>
 </html>
