@@ -44,7 +44,7 @@ function parser()
 
 				if (getStatus((string)$server->host, (string)$server->port))
 				{
-					echo "<td class=\"text-center\"><center><button type=\"button\" class=\"btn btn-success btn-lg btn-round\"><span class=\"glyphicon icon-off\"></span></button></center>";
+					echo "<td class=\"text-center\"><center><button type=\"button\" class=\"btn btn-success btn-lg btn-round\"><span class=\"glyphicon icon-play\"></span></button></center>";
 				}
 				else 
 				{
