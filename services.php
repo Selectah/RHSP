@@ -44,11 +44,11 @@ function parser()
 
 				if (getStatus((string)$server->host, (string)$server->port))
 				{
-					echo "<td class=\"text-center\"><button type=\"button\" class=\"btn btn-success btn-lg btn-round\"><span class=\"glyphicon icon-off\"></span></button></center>";
+					echo "<td class=\"text-center\"><center><button type=\"button\" class=\"btn btn-success btn-lg btn-round\"><span class=\"glyphicon icon-off\"></span></button></center>";
 				}
 				else 
 				{
-					echo "<td class=\"text-center\"><button type=\"button\" class=\"btn btn-danger btn-lg btn-round\"><span class=\"glyphicon icon-off\"></span></button>";
+					echo "<td class=\"text-center\"><center><button type=\"button\" class=\"btn btn-danger btn-lg btn-round\"><span class=\"glyphicon icon-off\"></span></button></center>";
 				}
 
 			}
@@ -115,7 +115,7 @@ function parser()
 	<th class="text-center">Domain</th>
 	<th class="text-center">IP</th>
 	<th class="text-center">Port</th>
-	<th class="text-center">Status</th>
+	<th class="text-center"><center>Status</center></th>
 	</tr>
         <?php parser(); ?>
 	</table>
