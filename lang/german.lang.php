@@ -1,7 +1,7 @@
 <?php
 	define(TXT_RUNTIME, "Laufzeit:");
         define(TXT_CPU_INFO, "Prozessor:");
-	define(TXT_TEMPERATURE, "Temperatur");
+	define(TXT_TEMPERATURE, "CPU Temperatur");
 	define(TXT_VOLTAGE, "Spannung");
 	define(TXT_CLOCK, "Takt");
 	define(TXT_USAGE, "Prozessorauslastung");

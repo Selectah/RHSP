@@ -96,7 +96,7 @@ div#container-hinfos div#rxdata{
 
 div#container div#tempgauge{
 	float: left;
-	margin: 70px 0px 25px 0px;
+	margin: -25px 0px 25px 0px;
 	height: 125px;
 	width: 180px;
 }
@@ -124,7 +124,7 @@ div#container div#cpugauge{
 
 div#container div#voltgauge{
 	float: left;
-	margin: 70px 0px 25px 0px;
+	margin: -25px 0px 25px 0px;
 	height: 125px;
 	width: 180px;
 }
@@ -132,7 +132,7 @@ div#container div#voltgauge{
 div#container-hinfos div#border{
 	float: left;
 	font-weight: bold;
-	margin: -15px 0px 0px 0px;
+	margin: -5px 0px 0px 0px;
 	width: 800px;
 	border-bottom: 2px solid #CCCCCC;
 }
