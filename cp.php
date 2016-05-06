@@ -19,8 +19,6 @@
          <a href="sysinfo.php" class="btn btn-info btn-small"><i class=icon-leaf></i> Systeminfos</a>
          <a href="gpio.php" class="btn btn-info btn-small"><i class=icon-eye-open></i> GPIO Watch</a>
          <a href="services.php" class="btn btn-info btn-small"><i class=icon-signal></i> Running Services</a>
-         <button class="btn btn-danger btn-small"><i class=icon-off></i> Shutdown</button>
-         <button class="btn btn-warning btn-small"><i class=icon-refresh></i> Restart</button>
       </center>
    </div>
 </nav>
