@@ -19,8 +19,9 @@
          <a href="sysinfo.php" class="btn btn-info btn-small"><i class=icon-leaf></i> Systeminfos</a>
          <a href="gpio.php" class="btn btn-info btn-small"><i class=icon-eye-open></i> GPIO Watch</a>
          <a href="services.php" class="btn btn-info btn-small"><i class=icon-signal></i> Running Services</a>
-         <button class="btn btn-danger btn-small"><i class=icon-off></i> Shutdown</button>
-         <button class="btn btn-warning btn-small"><i class=icon-refresh></i> Restart</button>
+         <a class="button btn btn-warning btn-small" href="modules/shutdown.php?action=0" onclick="return checkAction('<?php echo TXT_RESTART_1; ?>');"><i class=icon-refresh></i>Restart</button></a>
+         <a class="button btn btn-danger btn-small" href="modules/shutdown.php?action=1" onclick="return checkAction('<?php echo TXT_SHUTDOWN_1; ?>');"><i class=icon-off></i>Shutdown</button></a>
+
       </center>
    </div>
 </nav>
@@ -42,12 +43,30 @@
         <script src="javascript/bootstrap.min.js"></script>
         <script src="javascript/raphael.2.1.0.min.js"></script>
         <script src="javascript/justgage.1.0.1.min.js"></script>
+
+        <script src="javascript/jquery.min.js"></script>
+        <script src="javascript/jquery.js"></script>
+
+	    <script>
+	       function checkAction(action){
+	           if (confirm('<?php echo TXT_CONFIRM; ?> ' + action + '?'))
+		   {
+		       return true;
+		   }
+		   else
+		   {
+		       return false;
+		   }
+	    	}
+	    </script>
+
     </head>
 
     <body>
         <div id="container">
         <img id="logo-custom" src="images/raspberry.png">
         <div id="title">RHS Panel</div>
+
 
         </div>
     </body>
