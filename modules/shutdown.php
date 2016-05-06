@@ -25,4 +25,4 @@ function shutdown()
     
     system('sudo /sbin/shutdown -h now');
 }
-?> 
+?>
